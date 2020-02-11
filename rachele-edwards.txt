@@ -62,12 +62,28 @@ https://codepen.io/berachele/full/PoqqrpM
     30. How do I write a comment in CSS?
         /*[write in here for commenting--this won't effet code]*/
     31. How do I find out what file I am in, when I am using the command line? 
+        pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm [file name] --you want to be careful because it will delete permanently! It will NOT give you a warning
+        whether or not you want to remove it
     34. Why should I use version control? 
+        So that it will save all of your changes onto one "timeline" so to speak and multiple people can work on it privately
+        without it getting in the way of eachother
     35. How often should I commit to github?
+        as often as possible, usually about every 20 min
     36. What is the command we would use to push our repo up to github? 
+        git push -u origin [branch-name]
     37. Walk me through Lambda's git flow. 
+        Fork your assignment, (should see it succeed when it shows your name and 'forked from:'), add TL as collaborator
+        copy clone link in github, in your Terminal cd to where you want your clone to be, git clone [clone link], 
+        cd into newly created repo, create new branch under your name (git checkout -b [first-lastName]), 
+        Work on your repo!, when you make changes: git add . to add into committing link, then git commit -m "with a 
+        specific message about what changes were made", git push -u origin [your branch-name], Submit a PR! (Pull Request),
+        Go to your forked project in github--click branch:master button; click your branch-name; click New pull request
+        (will redirect you to PR page), add your TL as a reviewer before creating!!, change base repo to your forked repo,
+        Click create repo--do not merge though!
 
 Stretch Questions
 
