@@ -41,15 +41,26 @@ https://codepen.io/berachele/full/PoqqrpM
     20. How do we select classes in CSS?
         .className
     21. How do we select a p element with a single class of “human””?
+        p.human{}
     22. What is a parent child selector? When would this be useful? 
+        Parent is when you put a tag inside another tag--the outer tag being the parent. This is useful when you're
+        grouping different tags, but are in the same section/topic
     23. How do you select all links within a div with the class of sidebar?
+        .sidebar a{}, can be more detailed
     24. What is a pseudo selector?
-    25. What do we use the change the spacing between lines?
+        ooh! When you want to do special effects basically/styling tags individually
+    25. What do we use to change the spacing between lines?
+        <br> or empty <p></p> tags
     26. What do we use to change the spacing between letters?
+        letter-spacing attribute
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform
     28. How do I add a 1px border around my div that is dotted and black?
+        div{border: 1px dotted black}
     29. How do I select everything on the page? 
+        * the universal selector
     30. How do I write a comment in CSS?
+        /*[write in here for commenting--this won't effet code]*/
     31. How do I find out what file I am in, when I am using the command line? 
     32. Using the command line - how do I see a list of files/folders in my current folder?
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
