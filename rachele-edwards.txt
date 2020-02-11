@@ -19,16 +19,27 @@ https://codepen.io/berachele/full/PoqqrpM
         Once!
     10. What is a class? 
         a specific selector
-    11. What elements can I add a class to? 
+    11. What elements can I add a class to?
+        Any!
     12. How many times can I use the same class on a page? 
+        As many as needed
     13. How do I get my link to open in a new tab?
+        "target_blank" after the link
     14. What is the alt attribute used for? 
+        alt is to give a description of the src you're inputting (the "blue pineapple behind teal background")
     15. How do I reference an id?
+        #idname
     16. What is the difference between a section and a div
+        section is more semantic, div's are grouped together to be moved all at once
     17. What is CSS used for? 
+        The styling of the website--colors, borders, fonts, etc. Making it pretty!
     18. How to we select an element? Example - every h2 on the page
+        h2{} just state the name with curly brackets
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        id is a more specific class selector. I would use class for all my photos, class="photos",
+        but I would use id only for the h1, id="main-heading"
     20. How do we select classes in CSS?
+        .className
     21. How do we select a p element with a single class of “human””?
     22. What is a parent child selector? When would this be useful? 
     23. How do you select all links within a div with the class of sidebar?
